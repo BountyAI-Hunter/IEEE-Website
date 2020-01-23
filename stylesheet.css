@@ -1,0 +1,37 @@
+body {
+ /*background: url('bg3.jpg');*/
+ background-size: cover;
+ margin-left: 0;
+ font-family: montserrat;
+opacity: 1;
+  /*background-image:url(bgimage.jpg);*/
+
+}
+h1{font-weight: 800;color: #fff;font-size: 4em}
+h2{color: #aaa}
+
+.card
+{
+	border-radius: 18px;
+	opacity: 1;
+}
+.shadows{
+	box-shadow: 0px 0px 20px #888;
+}
+.card-text{
+	font-weight: 600;
+	font-size:18px
+}
+.card-body .btn{
+	font-weight: 600;
+	font-size: 18px
+}
+.card-img-top{
+	padding: 10px;
+	max-height: 24rem;
+	object-fit: cover;
+	border-radius: 20px;
+}
+.round-20{
+	border-radius: 20px;
+}
