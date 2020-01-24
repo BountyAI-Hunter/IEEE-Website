@@ -9,14 +9,20 @@ opacity: 1;
 }
 h1{font-weight: 800;color: #fff;font-size: 4em}
 h2{color: #aaa}
+h4{font-weight: 600}
 
 .card
 {
-	border-radius: 18px;
+	border-radius: 10px;
 	opacity: 1;
 }
+.card-body h2{
+	font-size: 2.5em;
+	font-weight: 600;
+	color: #000
+}
 .shadows{
-	box-shadow: 0px 0px 20px #888;
+	box-shadow: 0px 0px 10px #aaa;
 }
 .card-text{
 	font-weight: 600;
@@ -27,11 +33,11 @@ h2{color: #aaa}
 	font-size: 18px
 }
 .card-img-top{
-	padding: 10px;
-	max-height: 24rem;
+	padding: 5px;
+	max-height: 20rem;
 	object-fit: cover;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 .round-20{
-	border-radius: 20px;
+	border-radius: 10px;
 }
